@@ -1,0 +1,130 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+.navbar {
+  background: #151C2B;
+  height: 130px;
+}
+.navbar-brand {
+  width: 120px;
+  margin: 0 0 0 135px;
+}
+.navbar-brand img {
+  width: 100%;
+}
+h1 {
+  font-size: 3.75rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+  font-weight: 700;
+}
+.bg-light {
+  background: #F5F5F5 !important;
+}
+.hero {
+  margin-top: 130px;
+}
+.highlight {
+  color: #3CA902;
+}
+.btn-lg {
+  font-size: 1.5rem;
+  border-radius: 2.5rem;
+}
+.btn-primary {
+  background: #3CA902;
+  border: 1px solid #3CA902;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show, 
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+  background: #369105;
+  border: 1px solid #3CA902;
+}
+.feature-img {
+  width: 180px;
+}
+.why-extend {
+  width: 35%;
+  align-items: center;
+  justify-content: center;
+}
+.why-extend-img {
+  background: url(../img/bg.svg) no-repeat transparent;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  height: calc(100% + 60px);
+  margin: -80px 0 0 0;
+  padding: 120px 0;
+  background-position: right top;
+  background-size: 100%;
+}
+.why-extend-img img {
+  width: 250px;
+}
+.extend-features {
+  margin: 0 0 0 50px;
+}
+.extend-features ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.extend-features ul li {
+  display: flex;
+  align-items: baseline;
+}
+.get-btn img {
+  width: 200px;
+  margin: 15px;
+}
+.call-bottom {
+  max-width: 950px;
+}
+footer {
+  background: #151C2B;
+}
+footer img {
+  width: 80px;
+}
+@media (max-width: 992px) {
+  .navbar {
+    height: auto;
+  }
+  .navbar-brand {
+    width: 80px;
+    margin: 0;
+  }
+  .hero {
+    margin-top: 70px;
+  }
+  .why-extend {
+    width: 100%;
+  }
+  .why-extend-img {
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    background-size: auto;
+    background-position: left;
+  }
+}
